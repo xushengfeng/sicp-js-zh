@@ -3,60 +3,32 @@
 ![](cover.jpg)
 
 > 原文：[https://sicp.comp.nus.edu.sg/index.html](https://sicp.comp.nus.edu.sg/index.html)
-> 
+>
 > 协议：[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-> 
-> 如果你交给某人一个程序，你将折磨他一整天；如果你教某人如何编写程序，你将折磨他一辈子。——David Leinweber
 
-* [在线阅读](https://sicp-js.apachecn.org)
-* [在线阅读（Gitee）](https://apachecn.gitee.io/sicp-js-zh/)
-* [ApacheCN 面试求职交流群 724187166](https://jq.qq.com/?_wv=1027&k=54ujcL3)
-* [ApacheCN 学习资源](http://www.apachecn.org/)
+-   [在线阅读](https://sicp-js.apachecn.org)
+-   [在线阅读（Gitee）](https://apachecn.gitee.io/sicp-js-zh/)
+-   [ApacheCN 面试求职交流群 724187166](https://jq.qq.com/?_wv=1027&k=54ujcL3)
+-   [ApacheCN 学习资源](http://www.apachecn.org/)
 
-## 贡献指南
+以[apachecn/sicp-js-zh](https://github.com/apachecn/sicp-js-zh)的翻译为蓝本，做了一些自作主张的修改用于方便自己学习。
 
-本项目需要校对，欢迎大家提交 Pull Request。
+-   原文`Math`打包成了`math_...`，我改成通用的形式`Math`
+-   为部分公式添加$\LaTeX$排版
 
-> 请您勇敢地去翻译和改进翻译。虽然我们追求卓越，但我们并不要求您做到十全十美，因此请不要担心因为翻译上犯错——在大部分情况下，我们的服务器已经记录所有的翻译，因此您不必担心会因为您的失误遭到无法挽回的破坏。（改编自维基百科）
+[可以直接在 GitHub 上浏览](./docs/00.md)
 
-## 联系方式
+进展：
 
-### 负责人
+-   [ ] 公式修复
+    -   [x] 第一章
+-   [ ] 优化翻译（名词）
+-   [ ] 优化标点符号
+-   [ ] 使用 md 拓展的脚注
+-   [ ] 代码添加翻译注释
 
-* [飞龙](https://github.com/wizardforcel): 562826179
+精修：
 
-### 其他
-
-*   在我们的 [apachecn/sicp-js-zh](https://github.com/apachecn/sicp-js-zh) github 上提 issue.
-*   发邮件到 Email: `apachecn@163.com`.
-*   在我们的 [组织学习交流群](http://www.apachecn.org/organization/348.html) 中联系群主/管理员即可.
-
-## 下载
-
-### Docker
-
-```
-docker pull apachecn0/sicp-js-zh
-docker run -tid -p <port>:80 apachecn0/sicp-js-zh
-# 访问 http://localhost:{port} 查看文档
-```
-
-### PYPI
-
-```
-pip install sicp-js-zh
-sicp-js-zh <port>
-# 访问 http://localhost:{port} 查看文档
-```
-
-### NPM
-
-```
-npm install -g sicp-js-zh
-sicp-js-zh <port>
-# 访问 http://localhost:{port} 查看文档
-```
-
-## 赞助我们
-
-![](http://data.apachecn.org/img/about/donate.jpg)
+-   [ ] 公式修复
+-   [ ] 优化翻译（名词）
+-   [ ] 优化标点符号
